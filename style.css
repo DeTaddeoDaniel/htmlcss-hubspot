@@ -1,8 +1,92 @@
+
+.conteiner::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+.borderRight{
+    border-right: 1px solid blue;
+}
+
 body{
+    background-image: url("https://lh3.googleusercontent.com/proxy/vYs7Tltgdep0RGQcLki1IpYqhGcarwAUFWYOcHJ9RHPbT6XWYs4tAoX7ScMVoNfiKt5IZHU4Mr40mnX0GmjNUEOmLa5IQIYpUvcgc9ckExEiFT6h-57fqHszTtE2X-iTG_gwyBKwEAty6w");
+}
+
+
+.wrapper{
+
+}
+
+.margin{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.header{
+    background-color: purple;
+}
+
+.box{
+    background-color: SKYBLUE;
+    height: 50px;
+}
+
+.box > .div{
+    margin: 10px;
+}
+
+.box .left{
+    background: blue;
+    height: 50px;
+    /* width: 40px; */
+    float: left;
+}
+
+.box .left ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.box .left ul li{
+    background-color: orange;
+    float: left;
+    display: inline-block;
+    padding: 15px;
+}
+
+.box .left ul li a{
+    color: green;
+    text-decoration: none;
+}
+
+.box .right{
     background-color: red;
+    height: 50px;
+    /* width: 40px; */
+    float: right;
+
+}
+
+.box .right ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.box .right ul li{
+    background-color: orange;
+    float: left;
+    display: inline-block;
+    padding: 15px;
+}
+
+.box .right ul li a{
+    color: green;
+    text-decoration: none;
 }
