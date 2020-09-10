@@ -173,3 +173,47 @@ nav .box .right ul li a{
     padding: 15px 0 15px 10px;
     /* height: 20px; */
 }
+
+/* inizio div jumbotron */
+.jumbotron{
+    background-color: SKYBLUE;
+    position: relative;
+}
+
+.jumbotron .text.large{
+    background-color: green;
+    width: 260px;
+    position: absolute;
+    transform: translate(0, 25px);
+}
+
+.jumbotron .text.large h3{
+    background-color: red;
+    text-align: center;
+}
+
+.jumbotron .text.large p{
+    background-color: purple;
+}
+
+.jumbotron .text.small{
+    background-color: green;
+    width: 20vw;
+    position: absolute;
+    transform: translate(0px, 125px);
+}
+
+.jumbotron .text.small a{
+    align-content: center;
+    background-color: blue;
+    color: white;
+}
+
+.jumbotron .small p{
+    background-color: lightgreen;
+    font-size: 10px;
+}
+
+.jumbotron img{
+    width: 100%;
+}
