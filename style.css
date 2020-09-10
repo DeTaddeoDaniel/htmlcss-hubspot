@@ -37,7 +37,7 @@ body{
 
 .header .box{
     background-color: SKYBLUE;
-    height: 50px;
+    /* height: 50px; */
 }
 
  .header .box > .div{
@@ -46,7 +46,7 @@ body{
 
 .header .box .left{
     background: blue;
-    height: 50px;
+    /* height: 50px; */
     /* width: 40px; */
     float: left;
 }
@@ -70,7 +70,7 @@ body{
 
 .header .box .right{
     background-color: red;
-    height: 50px;
+    /* height: 50px; */
     /* width: 40px; */
     float: right;
 
@@ -93,6 +93,7 @@ body{
     text-decoration: none;
 }
 
+/* fine header */
 /* inizio barra di navigazione */
 nav{
     background-color: navy;
@@ -100,7 +101,7 @@ nav{
 
 nav .box{
     background-color: seagreen;
-    height: 50px;
+    /* height: 50px; */
 }
 
  nav .box > .div{
@@ -109,7 +110,7 @@ nav .box{
 
 nav .box .left{
     background: sienna;
-    height: 50px;
+    /* height: 50px; */
     /* width: 40px; */
     float: left;
 }
@@ -133,7 +134,7 @@ nav .box .left ul li a{
 
 nav .box .right{
     background-color: red;
-    height: 50px;
+    /* height: 50px; */
     /* width: 40px; */
     float: right;
 
@@ -154,4 +155,21 @@ nav .box .right ul li{
 nav .box .right ul li a{
     color: green;
     text-decoration: none;
+}
+
+/* fine barra di navigazione */
+/* inizio notice */
+.notice{
+    background-color: YELLOW;
+    /* height: 50px; */
+}
+
+.notice .messagge{
+    background-color: purple;
+    /* height: 20px; */
+}
+
+.notice .messagge p{
+    padding: 15px 0 15px 10px;
+    /* height: 20px; */
 }
