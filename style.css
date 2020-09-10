@@ -29,44 +29,46 @@ body{
     margin: 0 auto;
 }
 
+
+/* inizio header */
 .header{
     background-color: purple;
 }
 
-.box{
+.header .box{
     background-color: SKYBLUE;
     height: 50px;
 }
 
-.box > .div{
+ .header .box > .div{
     margin: 10px;
 }
 
-.box .left{
+.header .box .left{
     background: blue;
     height: 50px;
     /* width: 40px; */
     float: left;
 }
 
-.box .left ul{
+.header .box .left ul{
     list-style-type: none;
     padding: 0;
 }
 
-.box .left ul li{
+.header .box .left ul li{
     background-color: orange;
     float: left;
     display: inline-block;
     padding: 15px;
 }
 
-.box .left ul li a{
+.header .box .left ul li a{
     color: green;
     text-decoration: none;
 }
 
-.box .right{
+.header .box .right{
     background-color: red;
     height: 50px;
     /* width: 40px; */
@@ -74,19 +76,82 @@ body{
 
 }
 
-.box .right ul{
+.header .box .right ul{
     list-style-type: none;
     padding: 0;
 }
 
-.box .right ul li{
+.header .box .right ul li{
     background-color: orange;
     float: left;
     display: inline-block;
     padding: 15px;
 }
 
-.box .right ul li a{
+.header .box .right ul li a{
+    color: green;
+    text-decoration: none;
+}
+
+/* inizio barra di navigazione */
+nav{
+    background-color: navy;
+}
+
+nav .box{
+    background-color: seagreen;
+    height: 50px;
+}
+
+ nav .box > .div{
+    margin: 10px;
+}
+
+nav .box .left{
+    background: sienna;
+    height: 50px;
+    /* width: 40px; */
+    float: left;
+}
+
+nav .box .left ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+nav .box .left ul li{
+    background-color: orange;
+    float: left;
+    display: inline-block;
+    padding: 15px;
+}
+
+nav .box .left ul li a{
+    color: green;
+    text-decoration: none;
+}
+
+nav .box .right{
+    background-color: red;
+    height: 50px;
+    /* width: 40px; */
+    float: right;
+
+}
+
+nav .box .right ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+nav .box .right ul li{
+    background-color: orange;
+    float: left;
+    display: inline-block;
+    padding: 15px;
+}
+
+nav .box .right ul li a{
     color: green;
     text-decoration: none;
 }
