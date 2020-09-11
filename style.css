@@ -338,21 +338,23 @@ nav .box .right ul li a{
 
 /* div costumer */
 .costumer{
-    border: 3px solid black;
-    /* height: 100px; */
+    /* border: 3px solid black; */
+    /* height: 100%; */
 }
 
 .costumer .content{
-    border: 3px solid orange;
+    /* border: 3px solid orange; */
     /* height: 50px; */
+    padding: 15px 0;
 }
 
 .costumer .content .left{
-    border: 3px solid red;
+    /* border: 3px solid red; */
     /* height: 20px; */
     float: left;
-    padding: 15px;
-    width: calc(40% - 6px);
+    padding: 0 15px 0 15px;
+    width: calc(40%);
+    height: 100%;
 }
 
 .costumer .content .left h3{
@@ -364,9 +366,32 @@ nav .box .right ul li a{
 }
 
 .costumer .content .right{
-    border: 3px solid purple;
+    /* border: 3px solid purple; */
     /* height: 20px; */
     float: left;
-    padding: 15px;
-    width: calc(60% - 6px);
+    width: calc(60%);
+    height: 100%;
 }
+
+.costumer .content .right .tableCostumer{
+    /* border: 3px solid brown; */
+}
+
+.costumer .content .right .tableCostumer .row{
+    /* border: 3px solid green; */
+}
+
+.costumer .content .right .tableCostumer .row .tableCell{
+    /* border: 3px solid black; */
+    display: inline-block;
+    float: left;
+    margin: 5px;
+    width: calc(25% - 10px);
+}
+
+.costumer .content .right .tableCostumer .row .tableCell img{
+    /* border: 3px solid gray; */
+    width: 100%;
+}
+
+/* div comment */
