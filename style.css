@@ -335,3 +335,38 @@ nav .box .right ul li a{
 .tableCell .text{
     font-size: 14px;
 }
+
+/* div costumer */
+.costumer{
+    border: 3px solid black;
+    /* height: 100px; */
+}
+
+.costumer .content{
+    border: 3px solid orange;
+    /* height: 50px; */
+}
+
+.costumer .content .left{
+    border: 3px solid red;
+    /* height: 20px; */
+    float: left;
+    padding: 15px;
+    width: calc(40% - 6px);
+}
+
+.costumer .content .left h3{
+    font-size: 40px;
+}
+
+.costumer .content .left p{
+    font-size: 10px;
+}
+
+.costumer .content .right{
+    border: 3px solid purple;
+    /* height: 20px; */
+    float: left;
+    padding: 15px;
+    width: calc(60% - 6px);
+}
