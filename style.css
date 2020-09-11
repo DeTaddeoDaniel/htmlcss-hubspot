@@ -27,6 +27,13 @@ body{
 .margin{
     max-width: 600px;
     margin: 0 auto;
+    border-radius: 3px;
+}
+
+.styleOrange{
+    background-color: orange;
+    color: white;
+    border: 1px solid orange;
 }
 
 
@@ -40,12 +47,13 @@ body{
 }
 
  .header .box > .div{
-    margin: 10px;
+    /* margin: 5px; */
 }
 
 .header .box .left{
     /* background: blue; */
     float: left;
+    height: 100%;
 }
 
 .header .box .left ul{
@@ -57,7 +65,7 @@ body{
     /* background-color: orange; */
     float: left;
     display: inline-block;
-    padding: 15px;
+    padding: 10px 15px;
 }
 
 .header .box .left ul li a{
@@ -66,9 +74,8 @@ body{
 }
 
 .header .box .right{
-    background-color: red;
+    /* background-color: red; */
     float: right;
-
 }
 
 .header .box .right ul{
@@ -77,15 +84,39 @@ body{
 }
 
 .header .box .right ul li{
-    background-color: orange;
+    /* background-color: orange; */
     float: left;
     display: inline-block;
-    padding: 15px;
+    padding: 10px 5px;
 }
 
 .header .box .right ul li a{
-    color: green;
     text-decoration: none;
+}
+
+.header .box .right ul:first-child i{
+    /* background-color: orange; */
+    color: blue;
+    padding: 5px 15px;
+}
+
+.header .box .right ul:first-child i{
+    /* background-color: orange; */
+    color: blue;
+}
+
+.header .box .right ul :nth-child(2) span{
+    /* background-color: orange; */
+    color: orange;
+    background-color: white;
+    border: 1px solid orange;
+    border-radius: 3px;
+    padding: 5px 20px;
+}
+
+.header .box .right ul :last-child a{
+    /* background-color: red; */
+    padding: 5px;
 }
 
 /* fine header */
