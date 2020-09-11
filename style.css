@@ -12,7 +12,7 @@
 }
 
 .borderRight{
-    border-right: 1px solid blue;
+    border-right: 1px solid lightgray;
 }
 
 body{
@@ -21,7 +21,7 @@ body{
 
 
 .wrapper{
-
+    font-size: 14px;
 }
 
 .margin{
@@ -32,12 +32,11 @@ body{
 
 /* inizio header */
 .header{
-    background-color: purple;
+    background-color: rgb(217 222 226);
 }
 
 .header .box{
-    background-color: SKYBLUE;
-    /* height: 50px; */
+    /* background-color: SKYBLUE; */
 }
 
  .header .box > .div{
@@ -45,9 +44,7 @@ body{
 }
 
 .header .box .left{
-    background: blue;
-    /* height: 50px; */
-    /* width: 40px; */
+    /* background: blue; */
     float: left;
 }
 
@@ -57,21 +54,19 @@ body{
 }
 
 .header .box .left ul li{
-    background-color: orange;
+    /* background-color: orange; */
     float: left;
     display: inline-block;
     padding: 15px;
 }
 
 .header .box .left ul li a{
-    color: green;
+    color: gray;
     text-decoration: none;
 }
 
 .header .box .right{
     background-color: red;
-    /* height: 50px; */
-    /* width: 40px; */
     float: right;
 
 }
@@ -198,7 +193,7 @@ nav .box .right ul li a{
 
 .jumbotron .text.small{
     background-color: green;
-    width: 20vw;
+    width: 180px;
     position: absolute;
     transform: translate(20px, 125px);
 }
@@ -246,10 +241,6 @@ nav .box .right ul li a{
     display: inline-block;
     float: left;
     width: calc(33.33% - 10px);
-    height: 25px;
     margin: 0 10px 10px 0;
-}
-
-
-.div-shop .listaProdotti .row .prodotto.riempiSpziox{
+    height: 100%;
 }
