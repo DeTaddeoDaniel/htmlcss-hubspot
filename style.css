@@ -395,3 +395,29 @@ nav .box .right ul li a{
 }
 
 /* div comment */
+.section-comment{
+    /* border: 3px solid red; */
+}
+
+.section-comment .content{
+    padding: 25px 0;
+    border: 3px solid lightblue;
+}
+
+.section-comment .content .left{
+    border: 3px solid green;
+    display: inline-block;
+    float: left;
+    width: 50%;
+}
+
+.section-comment .content .right{
+    border: 3px solid purple;
+    float: left;
+    width: 50%;
+}
+
+.section-comment .content .right img{
+    width: 100%;
+    padding: 5px;
+}
