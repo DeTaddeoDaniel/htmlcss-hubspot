@@ -130,7 +130,7 @@ nav .box{
     /* height: 50px; */
 }
 
- nav .box > .div{
+nav .box > .div{
     margin: 10px;
 }
 
@@ -188,54 +188,54 @@ nav .box .right ul li a{
     /* height: 20px; */
     color: white;
     padding: 15px 0 15px 20px;
-    font-size: 17px;
+    font-size: 16px;
 }
 
 .notice .messagge p{
     /* height: 20px; */
+    text
 }
 
 /* inizio div jumbotron */
 .jumbotron{
-    background-color: SKYBLUE;
+    background-color: rgb(255,242,238);
     position: relative;
 }
 
 .jumbotron .text.large{
-    background-color: green;
+    /* background-color: green; */
     width: 260px;
     position: absolute;
     transform: translate(20px, 25px);
 }
 
 .jumbotron .text.large h3{
-    background-color: red;
+    /* background-color: red; */
     text-align: center;
+    font-size: 1.2em;
 }
 
 .jumbotron .text.large p{
-    background-color: purple;
+    /* background-color: purple; */
 }
 
 .jumbotron .text.small{
-    background-color: green;
-    width: 180px;
+    /* background-color: green; */
+    width: 150px;
     position: absolute;
     transform: translate(20px, 125px);
 }
 
 .jumbotron .text.small a{
-    text-align: center;
-    align-content: center;
-    background-color: blue;
-    color: white;
     display: block;
-    padding: 10px;
     text-decoration: none;
+    align-content: center;
+    text-align: center;
+    padding: 10px;
 }
 
 .jumbotron .small p{
-    background-color: lightgreen;
+    /* background-color: lightgreen; */
     font-size: 10px;
     margin-top: 15px;
 }
