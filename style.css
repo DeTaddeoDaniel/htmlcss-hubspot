@@ -231,21 +231,13 @@ nav .box .right ul li a{
 
 .div-shop .listaProdotti{
     background-color: red;
+
 }
 
-.div-shop .listaProdotti .row{
+.row{
     background-color: green;
-}
+    padding: 10px 0 0  10px;
 
-.space{
-    content: "";
-    width: 0.5px;
-    height: 25px;
-    background-color: purple;
-    margin: 0;
-    padding: 0;
-    display: inline-block;
-    float: left;
 }
 
 .div-shop .listaProdotti .row .prodotto{
@@ -253,6 +245,11 @@ nav .box .right ul li a{
     border: 1px solid black;
     display: inline-block;
     float: left;
-    width: 33%;
+    width: calc(33.33% - 10px);
     height: 25px;
+    margin: 0 10px 10px 0;
+}
+
+
+.div-shop .listaProdotti .row .prodotto.riempiSpziox{
 }
