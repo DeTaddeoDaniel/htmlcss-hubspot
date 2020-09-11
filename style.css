@@ -122,11 +122,11 @@ body{
 /* fine header */
 /* inizio barra di navigazione */
 nav{
-    background-color: navy;
+    background-color: white;
 }
 
 nav .box{
-    background-color: seagreen;
+    /* background-color: seagreen; */
     /* height: 50px; */
 }
 
@@ -135,31 +135,24 @@ nav .box{
 }
 
 nav .box .left{
-    background: sienna;
+    /* background: sienna; */
     /* height: 50px; */
     /* width: 40px; */
     float: left;
+    padding: auto 10px;
 }
 
-nav .box .left ul{
-    list-style-type: none;
-    padding: 0;
+nav .box .left a{
+    background-color: red;
 }
 
-nav .box .left ul li{
-    background-color: orange;
-    float: left;
-    display: inline-block;
-    padding: 15px;
-}
-
-nav .box .left ul li a{
-    color: green;
-    text-decoration: none;
+nav .box .left a img{
+    height: 40px;
+    display: inline;
 }
 
 nav .box .right{
-    background-color: red;
+    /* background-color: red; */
     /* height: 50px; */
     /* width: 40px; */
     float: right;
@@ -172,31 +165,33 @@ nav .box .right ul{
 }
 
 nav .box .right ul li{
-    background-color: orange;
+    /* background-color: orange; */
     float: left;
     display: inline-block;
     padding: 15px;
 }
 
 nav .box .right ul li a{
-    color: green;
+    color: black;
     text-decoration: none;
 }
 
 /* fine barra di navigazione */
 /* inizio notice */
 .notice{
-    background-color: YELLOW;
+    background-color: rgb(66,91,118);
     /* height: 50px; */
 }
 
 .notice .messagge{
-    background-color: purple;
+    /* background-color: purple; */
     /* height: 20px; */
+    color: white;
+    padding: 15px 0 15px 20px;
+    font-size: 17px;
 }
 
 .notice .messagge p{
-    padding: 15px 0 15px 10px;
     /* height: 20px; */
 }
 
