@@ -42,6 +42,10 @@ body{
     z-index: 5;
 }
 
+.dropitem::after{
+    content: "<i class="fas fa-angle-down"></i">;
+}
+
 
 /* inizio header */
 .header{
@@ -261,7 +265,8 @@ nav .box .right ul li a{
 }
 
 .div-shop .listaProdotti .row{
-    /* border: 3px solid lightgreen; */
+    border: 3px solid lightgreen;
+    height: 336px;
 }
 
 .div-shop .listaProdotti .row .prodotto{
@@ -271,6 +276,8 @@ nav .box .right ul li a{
     width: calc(33.33% - 20px);
     background-color: white;
     margin: 10px;
+    padding: 5px;
+    height: calc(100% - 20px);
 }
 
 .div-shop .listaProdotti :first-child .prodotto:first-child{
