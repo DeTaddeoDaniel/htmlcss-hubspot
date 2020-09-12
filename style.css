@@ -401,11 +401,11 @@ nav .box .right ul li a{
 
 .section-comment .content{
     padding: 25px 0;
-    border: 3px solid lightblue;
+    /* border: 3px solid lightblue; */
 }
 
 .section-comment .content .left{
-    border: 3px solid green;
+    /* border: 3px solid green; */
     display: inline-block;
     float: left;
     width: 50%;
@@ -428,19 +428,57 @@ nav .box .right ul li a{
 
 .section-comment .content .left .text-down a{
     display: inline-block;
-    padding: 12px;
+    padding: 12px 18px;
     align-items: center;
-    margin: 0 auto;
     text-decoration: none;
 }
 
 .section-comment .content .right{
-    border: 3px solid purple;
+    /* border: 3px solid purple; */
     float: left;
     width: 50%;
 }
 
 .section-comment .content .right img{
     width: 100%;
+    padding: 5px;
+}
+
+/* footer */
+
+footer{
+    /* border: 3px solid green; */
+    background-color: rgb(50, 71, 90);
+    color: white;
+}
+
+footer .footer-top{
+    border: 3px solid red;
+}
+
+footer .section-link{
+    border: 3px solid orange;
+    display: inline-block;
+    float: left;
+    width: 25%
+}
+
+footer .section-link span{
+    display: block;
+    font-size: 1.25em;
+    padding: 5px;
+}
+
+footer .section-link ul{
+    list-style-type: none;
+}
+
+footer .section-link ul li{
+}
+
+footer .section-link ul li a{
+    color: white;
+    text-decoration: none;
+    display: block;
     padding: 5px;
 }
