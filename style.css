@@ -453,14 +453,15 @@ footer{
 }
 
 footer .footer-top{
-    border: 3px solid red;
+    /* border: 3px solid red; */
+    padding:20px;
 }
 
 footer .section-link{
-    border: 3px solid orange;
+    /* border: 3px solid orange; */
     display: inline-block;
     float: left;
-    width: 25%
+    width: 25%;
 }
 
 footer .section-link span{
@@ -483,9 +484,7 @@ footer .section-link ul li a{
     padding: 5px;
 }
 
-footer .section-link .ContactHubspot{
-
-}
+footer .section-link .ContactHubspot{}
 
 footer .section-link .ContactHubspot > a{
     background-color: white;
@@ -500,14 +499,35 @@ footer .section-link .ContactHubspot > a{
 }
 
 footer .section-link .ContactHubspot .social{
-    border: 3px solid brown;
+    /* border: 3px solid brown; */
     margin-top: 5px;
 }
+
 footer .section-link .ContactHubspot .social a{
-    border: 3px solid blue;
+    /* border: 3px solid blue; */
     color: white;
     padding: 2px;
     text-decoration: none;
     height: 100%;
     font-size: 9px;
+}
+
+footer .language{
+    /* border: 3px solid purple; */
+    padding-bottom: 15px;
+}
+
+footer .language .selectLanguage{
+    /* border: 3px solid red; */
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid rgb(80,125,165);
+}
+
+footer .language .selectLanguage a{
+    /* border: 3px solid brown; */
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
 }
