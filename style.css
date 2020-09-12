@@ -126,7 +126,6 @@ body{
     padding: 5px;
 }
 
-/* fine header */
 /* inizio barra di navigazione */
 nav{
     background-color: white;
@@ -184,7 +183,6 @@ nav .box .right ul li a{
     text-decoration: none;
 }
 
-/* fine barra di navigazione */
 /* inizio notice */
 .notice{
     background-color: rgb(66,91,118);
@@ -538,4 +536,40 @@ footer .language .selectLanguage a{
     text-decoration: none;
     display: inline-block;
     padding: 10px;
+}
+
+footer .footer-down{
+    /* border: 3px solid orange; */
+    height: 60px;
+}
+
+footer .footer-down .left{
+    /* border: 3px solid red; */
+    display: inline-block;
+    float: left;
+}
+
+footer .footer-down .left img{
+
+}
+
+footer .footer-down .left p{
+    font-size: 10px;
+}
+
+footer .footer-down .right{
+
+    /* border: 3px solid green; */
+    display: inline-block;
+    float: right;
+    height: 100%;
+}
+
+footer .footer-down .right a{
+    /* border: 3px solid yellow; */
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 7px;
+    margin: auto 0;
 }
