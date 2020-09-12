@@ -36,6 +36,12 @@ body{
     border: 1px solid orange;
 }
 
+.fixed{
+    position: fixed;
+    width:100vw;
+    z-index: 5;
+}
+
 
 /* inizio header */
 .header{
@@ -44,6 +50,7 @@ body{
 
 .header .box{
     /* background-color: SKYBLUE; */
+    max-width: 600px;
 }
 
  .header .box > .div{
@@ -123,6 +130,7 @@ body{
 /* inizio barra di navigazione */
 nav{
     background-color: white;
+    padding-top: 50px;
 }
 
 nav .box{
