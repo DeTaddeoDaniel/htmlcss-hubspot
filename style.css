@@ -252,27 +252,87 @@ nav .box .right ul li a{
 
 /* inizio shop */
 .div-shop{
-    background-color: lightblue;
-    align-content: center;
+    /* border: 3px solid red; */
+    background-color: lightgray;
 }
 
 .div-shop .listaProdotti{
-    background-color: red;
+    /* border: 3px solid orange; */
 }
 
-.div-shop.row{
-    background-color: green;
-    padding: 10px 0 0  10px;
+.div-shop .listaProdotti .row{
+    /* border: 3px solid lightgreen; */
 }
 
 .div-shop .listaProdotti .row .prodotto{
-    background-color: YELLOW;
-    border: 1px solid black;
+    /* border: 3px solid green; */
     display: inline-block;
     float: left;
-    width: calc(33.33% - 10px);
-    margin: 0 10px 10px 0;
-    height: 100%;
+    width: calc(33.33% - 20px);
+    background-color: white;
+    margin: 10px;
+}
+
+.div-shop .listaProdotti :first-child .prodotto:first-child{
+    /* border: 3px solid blue; */
+    background-color: lightgray;
+}
+
+.div-shop .listaProdotti .row .prodotto.text{
+    padding: 0;
+}
+
+.div-shop .listaProdotti .row .prodotto.text h3{
+    font-size: 25px;
+}
+
+.div-shop .listaProdotti .row .prodotto.text p{
+    margin-top: 8px;
+    font-size: 14px;
+}
+
+.div-shop .row .prodotto .prodottoHeader{
+    border-bottom: 1px solid  rgb(178,176,179);
+}
+
+.div-shop .row .prodotto .prodottoHeader h3{}
+
+.div-shop .row .prodotto .prodottoHeader h3 i{
+    color: blue;
+    font-size: 15px;
+    margin-left: 2px;
+}
+
+.div-shop .row .prodotto .prodottoHeader p{
+    margin: 8px;
+}
+
+.div-shop .row .prodotto .prodottoFooter{
+    margin-top: 8px;
+}
+
+.div-shop .row .prodotto .prodottoFooter span{
+}
+
+.div-shop .row .prodotto .prodottoFooter ul{
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.div-shop .row .prodotto .prodottoFooter ul li{
+    margin: 8px;
+}
+
+.div-shop .row .prodotto .prodottoFooter ul li i{
+    color: orange;
+}
+
+.div-shop .row .prodotto .prodottoFooter a{
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 5px;
+    background-color: orange;
 }
 
 /* inizio community */
@@ -563,13 +623,15 @@ footer .footer-down .right{
     display: inline-block;
     float: right;
     height: 100%;
+    margin: auto 0;
 }
 
 footer .footer-down .right a{
     /* border: 3px solid yellow; */
     color: white;
     text-decoration: none;
-    display: inline-block;
+
     padding: 7px;
-    margin: auto 0;
+    display: inline-block;
+    float: left;
 }
