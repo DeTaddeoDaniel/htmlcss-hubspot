@@ -42,10 +42,28 @@ body{
     z-index: 5;
 }
 
-.dropitem::after{
-    content: "<i class="fas fa-angle-down"></i">;
+/* Step 1: Common Properties: All required to make icons render reliably */
+.icon::before {
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
 }
 
+/* Step 2: Reference Individual Icons */
+.login::after {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f107";
+}
+
+.feature::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f058";
+  color: orange;
+}
 
 /* inizio header */
 .header{
@@ -57,7 +75,7 @@ body{
     max-width: 600px;
 }
 
- .header .box > .div{
+.header .box > .div{
     /* margin: 5px; */
 }
 
@@ -265,7 +283,7 @@ nav .box .right ul li a{
 }
 
 .div-shop .listaProdotti .row{
-    border: 3px solid lightgreen;
+    /* border: 3px solid lightgreen; */
     height: 336px;
 }
 
@@ -328,10 +346,6 @@ nav .box .right ul li a{
 
 .div-shop .row .prodotto .prodottoFooter ul li{
     margin: 8px;
-}
-
-.div-shop .row .prodotto .prodottoFooter ul li i{
-    color: orange;
 }
 
 .div-shop .row .prodotto .prodottoFooter a{
