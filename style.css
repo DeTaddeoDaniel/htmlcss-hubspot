@@ -84,7 +84,6 @@ body{
     opacity: 0.5;
 }
 
-
 .fixed{
     position: fixed;
     width:100vw;
@@ -151,6 +150,52 @@ body{
     text-decoration: none;
 }
 
+/* --------------- */
+
+.header .box .left ul li{
+    float: none;
+    position: relative;
+}
+
+.header .box .left ul li .sub-menu{
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: 100%;
+    border: 1px solid lightgray
+}
+
+.header .box .left ul li .sub-menu li{
+
+}
+
+.header .box .left ul li .sub-menu li a{
+    color: black;
+    padding: 15px;
+}
+
+.header .box .left ul li:hover .sub-menu{
+    /* background-color: lightblue; */
+    display: block;
+}
+
+.header .box .left ul li .sub-menu li:hover{
+    background-color: lightblue;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------- */
 .header .box .right{
     /* background-color: red; */
     float: right;
@@ -405,6 +450,19 @@ nav .box .right ul li a{
     background-color: orange;
 }
 
+.listaProdotti :first-child :nth-child(3){
+    position: relative;
+}
+.iconaNew{
+    background-color: green;
+    color: white;
+    position: absolute;
+    top: 12px;
+    right: 0;
+    padding: 7px;
+    font-size: 10px;
+    border-radius: 100% 0 0 100% ;
+}
 /* inizio community */
 .community{
     background-color: rgb(0,185,168);
