@@ -19,6 +19,35 @@ body{
     background-image: url("https://lh3.googleusercontent.com/proxy/vYs7Tltgdep0RGQcLki1IpYqhGcarwAUFWYOcHJ9RHPbT6XWYs4tAoX7ScMVoNfiKt5IZHU4Mr40mnX0GmjNUEOmLa5IQIYpUvcgc9ckExEiFT6h-57fqHszTtE2X-iTG_gwyBKwEAty6w");
 }
 
+.chat{
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    font-size: 25px;
+    background-color: RGB(66, 92, 119);
+    padding: 10px;
+    border-radius: 100%;
+}
+
+.riquadro{
+    border-radius: 7px;
+    background-color: lightgray;
+    font-size: 14px;
+    width: 200px;
+    position: fixed;
+    bottom: 80px;
+    right: 15px;
+    padding: 30px 15px 20px;
+}
+
+.riquadro img{
+    position: absolute;
+    height: 45px;
+    right: 0;
+    top: -22.5px;
+    /* transition: translate(-50%, -50%); */
+}
+
 
 .wrapper{
     font-size: 14px;
@@ -611,17 +640,18 @@ footer .language .selectLanguage{
     padding: 0 auto;
     border: 3px solid orange;
 
+    align-items: center;
 }
 
 footer .language ul{
     border: 3px solid yellow;
     display: inline-block;
-    margin: 0 auto;
+    margin: 0 50px;
+
 }
 
 footer .language li{
     /* border: 3px solid green; */
-    display: inline-block;
     float: left;
 }
 
