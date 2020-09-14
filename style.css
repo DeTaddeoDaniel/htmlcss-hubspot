@@ -36,6 +36,11 @@ body{
     border: 1px solid orange;
 }
 
+.opacity:hover{
+    opacity: 0.5;
+}
+
+
 .fixed{
     position: fixed;
     width:100vw;
@@ -655,4 +660,8 @@ footer .footer-down .right a{
     padding: 7px;
     display: inline-block;
     float: left;
+}
+
+footer li:hover{
+    color: blue;
 }
