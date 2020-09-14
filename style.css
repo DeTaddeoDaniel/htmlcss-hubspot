@@ -25,27 +25,42 @@ body{
     right: 15px;
     font-size: 25px;
     background-color: RGB(66, 92, 119);
+    /* background-color: gray; */
     padding: 10px;
     border-radius: 100%;
+    z-index: 5;
 }
 
 .riquadro{
     border-radius: 7px;
-    background-color: lightgray;
+    background-color: white;
     font-size: 14px;
     width: 200px;
     position: fixed;
     bottom: 80px;
     right: 15px;
     padding: 30px 15px 20px;
+    border: 1px solid lightgray;
+    z-index: 5;
 }
 
 .riquadro img{
     position: absolute;
     height: 45px;
-    right: 0;
+    left: calc(50% - (45px / 2));
     top: -22.5px;
+    z-index: 6;
     /* transition: translate(-50%, -50%); */
+}
+
+.riquadro .closeChat{
+    font-size: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 6px;
+    font-weight: bold;
+    z-index: 6;
 }
 
 
@@ -206,12 +221,12 @@ nav .box .left{
 }
 
 nav .box .left a{
-    background-color: red;
+    /* background-color: red; */
 }
 
 nav .box .left a img{
     height: 40px;
-    display: inline;
+    /* display: inline; */
 }
 
 nav .box .right{
@@ -632,29 +647,27 @@ footer .section-link .ContactHubspot .social li {
 footer .language{
     /* padding-bottom: 10px; */
     margin-top: 10px;
+    width: 100%;
     /* border: 3px solid red; */
 }
 
 footer .language .selectLanguage{
     /* border-bottom: 1px solid purple; */
-    padding: 0 auto;
-    border: 3px solid orange;
-
-    align-items: center;
+    /* border: 3px solid orange; */
 }
 
 footer .language ul{
-    border: 3px solid yellow;
-    display: inline-block;
-    margin: 0 50px;
-
+    /* border: 3px solid yellow; */
+    margin: 0 auto;
+    width: 98%;
+    text-align: center;
 }
 
 footer .language li{
+    display: inline-block;
     /* border: 3px solid green; */
-    float: left;
+    /* float: left; */
 }
-
 
 footer .language a{
     padding: 10px 15px;
