@@ -705,7 +705,8 @@ footer .language{
 }
 
 footer .language .selectLanguage{
-    /* border-bottom: 1px solid purple; */
+    padding-bottom: 10px;
+    border-bottom: 1px solid gray;
     /* border: 3px solid orange; */
 }
 
