@@ -310,7 +310,8 @@ nav .box .right ul li a{
     text-decoration: none;
 }
 
-nav .box .right ul li .sub-menu{
+/* primo sub menu - software */
+nav .box .right ul li .sub-menu1{
     background-color: white;
     border:1px solid lightgray;
     padding: 10px;
@@ -322,31 +323,96 @@ nav .box .right ul li .sub-menu{
     display: none;
 }
 
-nav .box .right ul li .sub-menu li{
+nav .box .right ul li .sub-menu1 li{
     padding: 0;
     width: 100%;
 }
-nav .box .right ul li .sub-menu li a{
+
+nav .box .right ul li .sub-menu1 li a{
     display: block;
     padding: 10px;
     padding-left: 0;
 }
 
-nav .box .right ul li .sub-menu li:first-child{
+nav .box .right ul li .sub-menu1 .inizio{
     border-bottom:1px solid lightgray;
 }
 
-nav .box .right ul li .sub-menu li:last-child{
+nav .box .right ul li .sub-menu1 .fine{
     border-top:1px solid lightgray;
 }
 
-nav .box .right ul li:hover .sub-menu{
+nav .box .right ul li:hover .sub-menu1{
     display: block;
 }
 
-nav .box .right ul li:hover .sub-menu li:hover{
+nav .box .right ul li:hover .sub-menu1 li:hover{
     background-color: lightblue;
 }
+
+/* secondo sub menu - resource */
+nav .box .right ul li .sub-menu2{
+    background-color: white;
+    border:1px solid lightgray;
+    padding: 10px;
+    border-radius: 3px;
+    position: absolute;
+    top: 80%;
+    left: -300px;
+    z-index: 5;
+    display: none;
+}
+
+nav .box .right ul li .sub-menu2 li{
+    /* border: 3px solid purple; */
+    padding: 0;
+    width: 550px;
+}
+
+nav .box .right ul li .sub-menu2 li ul{
+    /* border: 3px solid orange; */
+    padding: 0;
+    width: 100%;
+    /* border: 3px solid red; */
+    /*  */
+}
+
+nav .box .right ul li .sub-menu2 li ul {
+    /* border-bottom: 1px solid lightgray; */
+    /* border-top: 0; */
+}
+
+nav .box .right ul li .sub-menu2 li:nth-child(2) ul li{
+    border-bottom: 1px solid lightgray;
+    border-top: 1px solid lightgray;
+}
+
+nav .box .right ul li .sub-menu2 li ul li{
+    /* border: 3px solid red; */
+    display: inline;
+    float: left;
+    width: 33.33%;
+    /*  */
+}
+
+nav .box .right ul li .sub-menu2 li ul li a{
+    /* border: 3px solid green; */
+    padding: 10px;
+    padding-left: 10px;
+    width: 100%;
+    display: inline-block;
+
+}
+
+nav .box .right ul li:hover .sub-menu2{
+    display: block;
+}
+
+nav .box .right ul li:hover .sub-menu2 li li:hover{
+    background-color: lightblue;
+}
+
+
 
 
 /* inizio notice */
