@@ -63,7 +63,6 @@ body{
     z-index: 6;
 }
 
-
 .wrapper{
     font-size: 14px;
 }
@@ -453,23 +452,12 @@ nav .box .right ul li .dropItem4{
     position: absolute;
     top: 80%;
     right: 0;
-    width: 340px;
-    border: 1px solid lightgray;
-    background-color: white;
-    z-index: 5;
-}
-
-/* quarta sub menu - about */
-nav .box .right ul li .dropItem4{
-    position: absolute;
-    top: 80%;
-    right: 0;
     width: 450px;
     border: 1px solid lightgray;
     background-color: white;
     z-index: 5;
     padding: 5px;
-    /* display: none; */
+    display: none;
 }
 
 nav .box .right ul li .dropItem4 span {
