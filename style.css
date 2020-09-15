@@ -448,6 +448,65 @@ nav .box .right ul li:hover .dropItem3 li:hover a {
     background-color: lightblue;
 }
 
+/* quarta sub menu - about */
+nav .box .right ul li .dropItem4{
+    position: absolute;
+    top: 80%;
+    right: 0;
+    width: 340px;
+    border: 1px solid lightgray;
+    background-color: white;
+    z-index: 5;
+}
+
+/* quarta sub menu - about */
+nav .box .right ul li .dropItem4{
+    position: absolute;
+    top: 80%;
+    right: 0;
+    width: 450px;
+    border: 1px solid lightgray;
+    background-color: white;
+    z-index: 5;
+    padding: 5px;
+    /* display: none; */
+}
+
+nav .box .right ul li .dropItem4 span {
+    display: block;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+nav .box .right ul li .dropItem4 li {
+    /* border: 3px solid red; */
+    width: 33.3%;
+    padding-left: 10px;
+    padding-left: 10px;
+}
+
+nav .box .right ul li .dropItem4 li ul{
+    padding: 0;
+}
+
+nav .box .right ul li .dropItem4 li ul li{
+    width: 100%;
+    /* background-color: orange; */
+    padding: 10px 0;
+}
+
+nav .box .right ul li .dropItem4 li ul li a{
+    display: block;
+}
+
+nav .box .right ul li:hover .dropItem4{
+    display: block;
+}
+
+nav .box .right ul li:hover .dropItem4 li ul li:hover{
+    background-color: lightblue;
+}
+
 /* inizio notice */
 .notice{
     background-color: rgb(66,91,118);
