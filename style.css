@@ -412,8 +412,41 @@ nav .box .right ul li:hover .sub-menu2 li li:hover{
     background-color: lightblue;
 }
 
+/* terzo sub menu - partner */
+nav .box .right ul li .dropItem3{
+    border: 3px solid purple;
+    position: absolute;
+    top: 80%;
+    right: -70px;
+    background-color: white;
+    border-radius: 3px;
+    border: 1px solid lightgray;
+    z-index: 5;
+    padding: 5px;
+    width: 200px;
+    display: none;
+}
 
+nav .box .right ul li .dropItem3 li{
+    /* border: 3px solid red; */
+    display: inline-block;
+    padding: 0;
+    width: 50%;
+}
 
+nav .box .right ul li .dropItem3 li a{
+    /* border: 3px solid green; */
+    display: inline-block;
+    padding: 10px;
+}
+
+nav .box .right ul li:hover .dropItem3 {
+    display: block;
+}
+
+nav .box .right ul li:hover .dropItem3 li:hover a {
+    background-color: lightblue;
+}
 
 /* inizio notice */
 .notice{
