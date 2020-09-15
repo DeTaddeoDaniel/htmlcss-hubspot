@@ -113,6 +113,11 @@ body{
   color: orange;
 }
 
+.globe::before{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f7a2";
+}
 /* inizio header */
 .header{
     background-color: rgb(217 222 226);
@@ -143,14 +148,13 @@ body{
     float: left;
     display: inline-block;
     padding: 10px 15px;
+    color: gray;
 }
 
 .header .box .left ul li a{
     color: gray;
     text-decoration: none;
 }
-
-/* --------------- */
 
 .header .box .left ul li{
     float: none;
@@ -184,18 +188,6 @@ body{
     width: 100%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-/* ----------------- */
 .header .box .right{
     /* background-color: red; */
     float: right;
@@ -328,12 +320,13 @@ nav .box .right ul li a{
     /* background-color: green; */
     width: 260px;
     position: absolute;
-    transform: translate(20px, 20px);
+    left: calc(50%);
+    top: 20px;
+    transform: translateX(calc(-50% - 130px - 30px));
 }
 
 .jumbotron .text.large h3{
     /* background-color: red; */
-    text-align: center;
     font-size: 1.2em;
 }
 
@@ -345,7 +338,9 @@ nav .box .right ul li a{
     /* background-color: green; */
     width: 150px;
     position: absolute;
-    transform: translate(20px, 135px);
+    left: 50%;
+    top: 140px;
+    transform: translateX(calc(-50% - 75px - 110px - 30px));
 }
 
 .jumbotron .text.small a{
