@@ -90,6 +90,18 @@ body{
     z-index: 5;
 }
 
+.sub-menu{
+    display: none;
+    position: absolute;
+    background-color: white;
+    border: 1px solid lightgray;
+}
+
+.sub-menu li:hover a{
+    background-color: lightblue;
+}
+
+
 /* Step 1: Common Properties: All required to make icons render reliably */
 .icon::before {
   display: inline-block;
@@ -124,6 +136,7 @@ body{
     font-weight: 900;
     content: "\f121";
 }
+
 /* inizio header */
 .header{
     background-color: rgb(217 222 226);
@@ -173,32 +186,34 @@ body{
 }
 
 .header .box .left ul li .sub-menu{
-    display: none;
+    /* background-color: white; */
+    /* border:1px solid lightgray; */
+    padding: 10px;
+    /* border-radius: 3px; */
     position: absolute;
-    background-color: white;
-    top: 100%;
-    border: 1px solid lightgray;
-    padding: 5px;
-    text-align: left;
+    top: 80%;
+    z-index: 5;
+    width: 100px;
+    /* display: none; */
 }
 
 .header .box .left ul li .sub-menu li{
-
+    padding: 0;
+    width: 100%;
 }
-
 .header .box .left ul li .sub-menu li a{
-    color: black;
-    padding: 15px 0;
+    display: block;
+    padding: 10px;
+    padding-left: 0;
+    color: black
 }
 
 .header .box .left ul li:hover .sub-menu{
-    /* background-color: lightblue; */
     display: block;
 }
 
-.header .box .left ul li .sub-menu li:hover{
-    background-color: lightblue;
-    width: 100%;
+.header .box .left ul li:hover .sub-menu li:hover{
+    /* background-color: lightblue; */
 }
 
 .header .box .right{
@@ -306,16 +321,15 @@ nav .box .right ul li a{
 }
 
 nav .box .right ul li .sub-menu{
-    background-color: white;
-    border:1px solid lightgray;
-    padding-left: 0;
-    border-radius: 3px;
+    /* background-color: white; */
+    /* border:1px solid lightgray; */
+    padding: 10px;
+    /* border-radius: 3px; */
     position: absolute;
     top: 80%;
     z-index: 5;
     width: 190px;
-    display: none;
-    padding: 10px;
+    /* display: none; */
 }
 
 nav .box .right ul li .sub-menu li{
@@ -341,7 +355,7 @@ nav .box .right ul li:hover .sub-menu{
 }
 
 nav .box .right ul li:hover .sub-menu li:hover{
-    background-color: lightblue;
+    /* background-color: lightblue; */
 }
 
 
