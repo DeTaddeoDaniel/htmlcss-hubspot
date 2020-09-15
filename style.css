@@ -147,7 +147,7 @@ body{
     /* background-color: orange; */
     float: left;
     display: inline-block;
-    padding: 10px 15px;
+    padding: 10px 15px 10px 0;
     color: gray;
 }
 
@@ -301,7 +301,7 @@ nav .box .right ul li a{
     /* background-color: purple; */
     /* height: 20px; */
     color: white;
-    padding: 15px 0 15px 20px;
+    padding: 15px 0 15px 10px;
     font-size: 16px;
 }
 
@@ -390,6 +390,7 @@ nav .box .right ul li a{
 .div-shop .listaProdotti :first-child .prodotto:first-child{
     /* border: 3px solid blue; */
     background-color: lightgray;
+    padding-left: 0;
 }
 
 .div-shop .listaProdotti .row .prodotto.text{
@@ -541,7 +542,7 @@ nav .box .right ul li a{
     /* border: 3px solid red; */
     /* height: 20px; */
     float: left;
-    padding: 0 15px 0 15px;
+    padding: 0 15px 0 0;
     width: calc(40%);
     height: 100%;
 }
