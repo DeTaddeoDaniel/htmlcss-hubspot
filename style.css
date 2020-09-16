@@ -161,7 +161,6 @@ body{
 
 .header .box .left ul li{
     /* background-color: orange; */
-    float: left;
     display: inline-block;
     color: black;
     padding: 10px 15px 10px 0px;
@@ -229,7 +228,6 @@ body{
 
 .header .box .right ul li{
     /* background-color: orange; */
-    float: left;
     display: inline-block;
     padding: 10px 5px;
 }
@@ -249,7 +247,7 @@ body{
     color: blue;
 }
 
-.header .box .right ul :nth-child(2) span{
+.header .box .right ul :nth-child(2) {
     /* background-color: orange; */
     color: orange;
     background-color: white;
@@ -313,7 +311,6 @@ nav .box .right ul{
 nav .box .right ul li{
     /* background-color: orange; */
     float: left;
-    display: inline-block;
     padding: 15px;
     position: relative;
 }
@@ -404,14 +401,14 @@ nav .box .right ul li .sub-menu2 li:nth-child(2) ul li{
 nav .box .right ul li .sub-menu2 li ul li{
     /* border: 3px solid red; */
     display: inline;
-    float: left;
     width: 33.33%;
     /*  */
 }
 
 nav .box .right ul li .sub-menu2 li ul li a{
     /* border: 3px solid green; */
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     padding-left: 10px;
     width: 100%;
     display: inline-block;
@@ -473,12 +470,7 @@ nav .box .right ul li .dropItem4{
     z-index: 5;
     padding: 5px;
     display: none;
-}
-
-nav .box .right ul li .dropItem4 span {
-    display: block;
     font-weight: bold;
-    padding-bottom: 10px;
 }
 
 nav .box .right ul li .dropItem4 li {
@@ -496,9 +488,11 @@ nav .box .right ul li .dropItem4 li ul li{
     width: 100%;
     /* background-color: orange; */
     padding: 10px 0;
+    font-weight: normal;
 }
 
 nav .box .right ul li .dropItem4 li ul li a{
+    font-weight: none;
     display: block;
 }
 
@@ -602,13 +596,12 @@ nav .box .right ul li:hover .dropItem4 li ul li:hover{
 
 .div-shop .listaProdotti .row .prodotto{
     /* border: 3px solid green; */
-    display: inline-block;
     float: left;
     width: calc(33.33% - 20px);
     background-color: white;
     margin: 10px;
     padding: 25px;
-    font-size: 21px;
+    font-size: 18px;
     height: calc(100%);
 }
 
@@ -651,9 +644,6 @@ nav .box .right ul li:hover .dropItem4 li ul li:hover{
 
 .div-shop .row .prodotto .prodottoFooter{
     padding-top: 28px;
-}
-
-.div-shop .row .prodotto .prodottoFooter span{
 }
 
 .div-shop .row .prodotto .prodottoFooter ul{
@@ -739,7 +729,6 @@ nav .box .right ul li:hover .dropItem4 li ul li:hover{
     float: left;
     padding: 20px;
     width: calc(25% );
-    display: inline-block;
     height: 100%;
 }
 
@@ -803,7 +792,6 @@ nav .box .right ul li:hover .dropItem4 li ul li:hover{
 
 .costumer .content .right .tableCostumer .row .tableCell{
     /* border: 3px solid black; */
-    display: inline-block;
     float: left;
     margin: 5px;
     width: calc(25% - 10px);
@@ -827,7 +815,6 @@ nav .box .right ul li:hover .dropItem4 li ul li:hover{
 .section-comment .content .left{
     /* border: 3px solid green; */
     display: inline-block;
-    float: left;
     width: 50%;
     padding-top: calc( 82px );
 }
@@ -873,6 +860,8 @@ footer{
     background-color: rgb(50, 71, 90);
     color: white;
     padding-top: 20px;
+    font-size: 1.5em;
+    font-weight: bold;
 }
 
 footer span{
@@ -888,11 +877,13 @@ footer ul{
 footer ul li{
     padding-top: 20px;
     padding-down: 20px;
+    font-size: 14px;
 }
 
 footer ul li a{
     color: white;
     text-decoration: none;
+    font-weight: normal;
 }
 
 footer ul li a:hover{
@@ -900,7 +891,6 @@ footer ul li a:hover{
 }
 
 footer .section-link{
-    display: inline-block;
     float: left;
     width: 25%;
 }
@@ -915,7 +905,7 @@ footer .section-link .ContactHubspot{
 }
 
 footer .section-link .ContactHubspot .concactButton{
-    text-align: left;
+    text-align: center;
     padding: 10px;
     background: white;
     color: blue;
@@ -924,11 +914,11 @@ footer .section-link .ContactHubspot .concactButton{
     border-radius: 3px;
     margin: 10px;
     margin-left: 0;
+    font-weight: normal;
 }
 
 footer .section-link .ContactHubspot .social li {
     display: inline;
-    float: left;
     width: 16.5%;
     font-size: 20px;
 }
@@ -957,7 +947,6 @@ footer .language ul{
 footer .language li{
     display: inline-block;
     /* border: 3px solid green; */
-    /* float: left; */
 }
 
 footer .language a{
@@ -968,25 +957,23 @@ footer .language a{
 footer .footer-down{
     padding-top: 30px;
     padding-bottom: 30px;
+    font-size: 12px;
+    font-weight: normal;
 }
 
 footer .footer-down .left{
-    display: inline-block;
     float: left;
 }
 
 footer .footer-down .right{
-    display: inline-block;
     float: right;
 }
 
 footer .footer-down .right{
-    display: inline-block;
     float: right;
 }
 
 footer .footer-down .right li {
-    display: inline-block;
     float: right;
     padding: 15px 15px;
     font-size: 1.5em;
